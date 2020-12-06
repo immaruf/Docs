@@ -1,0 +1,358 @@
+/*Css*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+@font-face {
+    font-family: 'Amostely Signature';
+    src: url('fonts/AmostelySignature.ttf') format('truetype');
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#about {
+    background-color: #f1f1f6;
+}
+
+#gallery,
+#testimonials {
+    background-color: #e1ccec;
+}
+
+footer {
+    background-color: #be9fe1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* header section */
+
+header {
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signature {
+    color: #384147;
+    text-align: center;
+    user-select: none;
+}
+
+.signature-heading {
+    font-family: 'Amostely Signature', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.signature-subhead {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: #be9fe1;
+}
+
+.navbar-toggler i {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar-toggler .fa-times {
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-bars {
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-times {
+    display: block;
+}
+
+.navbar-nav {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+
+/* about section */
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-description {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    outline: 5px solid #be9fe1;
+    outline-offset: -5px;
+    order: 2;
+    margin-top: 5px;
+}
+
+.about-img {
+    order: 1;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* gallery section */
+
+.section-heading {
+    position: relative;
+    display: block;
+    margin-bottom: 5rem;
+}
+
+.section-heading::before {
+    content: '';
+    position: absolute;
+    background-color: #be9fe1;
+    width: 2px;
+    height: 3rem;
+    top: 3rem;
+    border-radius: 8px;
+}
+
+.heading-title {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #384147;
+}
+
+.lightbox-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.lightbox-content img {
+    transition: transform 1s;
+}
+
+.lightbox-content:hover img {
+    transform: scale(1.2);
+}
+
+.lightbox-content a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: background-color .5s;
+}
+
+.lightbox-content a:hover::before {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.lightbox-content a::after {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f00e";
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+    z-index: 1000;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.lightbox-content a:hover::after {
+    opacity: .5;
+}
+
+
+/* testimonials */
+
+.carousel {
+    padding: 0 20px;
+}
+
+.carousel .item {
+    color: #999;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.carousel .item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #384147;
+    border-radius: 100%;
+}
+
+.carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+}
+
+.carousel .testimonials {
+    padding: 25px;
+    font-style: italic;
+    color: #222;
+}
+
+.carousel .customers {
+    text-transform: uppercase;
+    color: #384147;
+    font-weight: 300;
+}
+
+.carousel .carousel-control {
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #be9fe1;
+    border-radius: 100%;
+}
+
+.carousel .carousel-control i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #be9fe1;
+}
+
+
+/* footer */
+
+footer h5,
+footer h3 {
+    color: #333;
+    font-family: 'Playfair Display SC', sans-serif;
+}
+
+.text-muted {
+    color: #333 !important;
+}
+
+.input-group .btn {
+    background-color: #fff;
+    color: #333;
+    transition: opacity .5s;
+}
+
+.input-group .btn:hover {
+    opacity: .6
+}
+
+.lightboxOverlay {
+    overflow: hidden;
+}
+
+
+/* responsive */
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        background-color: transparent;
+    }
+    .navbar-nav {
+        padding: 0;
+    }
+    .nav-link {
+        color: #384147;
+    }
+    .nav-link:hover {
+        color: inherit;
+    }
+    nav:hover .nav-link:not(:hover) {
+        opacity: .5;
+    }
+    .about-content {
+        position: relative;
+        display: block;
+    }
+    .about-description {
+        position: absolute;
+        top: 80%;
+        transform: translateY(-50%);
+        width: 60%;
+        outline-offset: -10px;
+    }
+    .about-img img {
+        width: 70%;
+        margin-left: auto;
+    }
+    .lightboxOverlay {
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-description {
+        top: 50%;
+        width: 40%;
+        outline: 10px solid #be9fe1;
+        outline-offset: -20px;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .lb-close {
+        position: absolute;
+        float: none;
+        top: -20px;
+        right: 30px;
+    }
+    .lightboxOverlay {
+        overflow: hidden;
+    }
+}
