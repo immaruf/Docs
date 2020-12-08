@@ -1,0 +1,9 @@
+{
+    "title": "Litoll's Cafe",
+    "description": "Welcome to cafe of Litoll's.  We hope you enjoy our broad collection of premium coffee from all over the world",
+    "hours": [
+        { "day": "Sun - Thurs", "time": "7am to 10pm" },
+        { "day": "Friday", "time": "10am to 12pm" },
+        { "day": "Saturday", "time": "8am to 12pm" }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "hero": {
+        "headerText": "Drink Healthy <br> and Natural Coffee",
+        "subText": "At Litoll's Cafe, We only brew the freshest coffee from all around the world. We also serve pastries such as cupcakes and brownies.",
+        "bgImage3": "/images/bg_3.jpg",
+        "bgImage2": "/images/insta-4.jpg"
+    },
+    "about": {
+        "headerText": "Welcome to Litoll's Cafe.",
+        "subText": "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through a rift in the clouds.",
+        "bgImage": "/images/barista2.jpg",
+        "images": [
+            { "image": "/images/teaaa.jpg", "caption": "Tea" },
+            { "image": "/images/cupcakeee.jpg", "caption": "Pastries" },
+            { "image": "/images/coffeee.jpg", "caption": "Coffee" }
+        ]
+    },
+    "menu": {
+        "itemTitle1": "Coffe",
+        "itemTitle2": "Tea",
+        "itemTitle3": "Pastries"
+    },
+    "team": {
+        "header": "Meet the team",
+        "subText": "Team",
+        "image_background": "/images/teambbg.jpg",
+        "members": [
+            { "name": "Poe", "image": "/images/person_1.jpg", "qoute": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.", "position": "Owner" },
+            { "name": "Doe", "image": "/images/person_2.jpg", "qoute": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.", "position": "Co-Owner" },
+            { "name": "Coe", "image": "/images/person_3.jpg", "qoute": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.", "position": "Manager" }
+        ]
+    },
+    "order": {
+        "subText": "Order",
+        "header": "Order Details",
+        "sideImage": "/images/sideimage.jpg"
+    }
+}

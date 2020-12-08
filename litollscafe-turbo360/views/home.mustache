@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+{{>head}}
+  
+  </head>
+  <body>
+    
+    {{>nav}}
+    
+
+	<!--hero section-->
+    <section class="home-slider js-fullheight owl-carousel bg-white">
+      <div class="slider-item js-fullheight">
+      	<div class="overlay"></div>
+        <div class="container-fluid p-0">
+          <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+          	<div class="one-third order-md-last img js-fullheight" style="background-image:url({{{cdn}}}{{page.hero.bgImage3}});">
+          		<div class="overlay"></div>
+          	</div>
+	          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+	          	<div class="text mt-md-5">
+		            <h1 class="mb-4">{{{page.hero.headerText}}}</h1>
+		            <p>{{page.hero.subText}}</p>
+		            <!--<p><a id="skip-button" href="#about" class="btn btn-primary px-4 py-3 mt-3">Want to know more?</a></p>-->
+	            </div>
+	          </div>
+        	</div>
+        </div>
+      </div>
+
+		<div class="slider-item js-fullheight">
+      	<div class="overlay"></div>
+        <div class="container-fluid p-0">
+          <div class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+          	<div class="one-third order-md-last img js-fullheight" style="background-image:url({{{cdn}}}{{page.hero.bgImage2}});">
+          		<div class="overlay"></div>
+          	</div>
+	          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+	          	<div class="text mt-md-5">
+		            <h1 class="mb-4">{{{page.hero.headerText}}}</h1>
+		            <p>{{page.hero.subText}}</p>
+		            <!--<p><a id="skip-button" href="#about" class="btn btn-primary px-4 py-3 mt-3">Want to know more?</a></p>-->
+	            </div>
+	          </div>
+        	</div>
+        </div>
+      </div>
+    </section>
+	
+<!--about section-->
+		<section id="about" class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: url({{{cdn}}}{{page.about.bgImage}}); position: relative"></div>
+					<div class="col-sm-7 wrap-about py-5 ftco-animate">
+	          <div class="heading-section mt-5 mb-4">
+	          	<div class="pl-lg-5 ml-md-5">
+		          	<span class="subheading">About Us</span>
+		            <h2 class="mb-4">{{page.about.headerText}}</h2>
+	            </div>
+	          </div>
+	          <div class="pl-lg-5 ml-md-5">
+							<p>{{page.about.subText}}</p>
+							<h3 class="mt-5">Our Specialities</h3>
+							<div class="thumb my-4 d-flex">
+
+					{{#page.about.images}}
+	            	<a href="#" class="thumb-menu pr-md-4 text-center">
+	            		<div class="img" style="background-image: url({{{cdn}}}{{image}});"></div>
+	            		<h4>{{caption}}</h4>
+	            	</a>
+					{{/page.about.images}}
+
+	            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+<!--menu section-->
+    <section id="menu" class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+          	<span class="subheading">Specialties</span>
+            <h2 class="mb-4">Our Menu</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>{{page.menu.itemTitle1}}</h3>
+        		</div>
+
+				{{#coffee}}
+        		<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">${{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/coffee}}
+
+        	</div>
+
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>{{page.menu.itemTitle2}}</h3>
+        		</div>
+
+				{{#tea}}
+        		<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">${{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/tea}}
+
+
+        	</div>
+
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>{{page.menu.itemTitle3}}</h3>
+        		</div>
+
+				{{#pastries}}
+        		<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">${{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/pastries}}
+
+			
+        	</div>
+        </div>
+    	</div>
+
+    </section>
+
+<!--testimony section-->
+    <section class="ftco-section testimony-section" style="background-image: url({{{cdn}}}{{page.team.image_background}});" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          	<span class="subheading">{{page.team.subText}}</span>
+            <h2 class="mb-4">{{page.team.header}}</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate justify-content-center">
+          <div class="col-md-7">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+			
+			{{#page.team.members}}
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url({{{cdn}}}{{image}})">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">{{qoute}}</p>
+					<!--<p><a id="skip-button" href="#order" class="btn btn-primary px-4 py-3 mt-3" style="background-color: transparent !important">Click if you are stuck!</a></p>-->
+                    <p class="name">{{name}}</p>
+                    <span class="position">{{position}}</span>
+					
+                  </div>
+                </div>
+              </div>
+			{{/page.team.members}}
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+			
+<!--order section-->
+		<section id="order" class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+          <div class="col-md-5 ftco-animate img img-2" style="background-image: url({{{cdn}}}{{page.order.sideImage}});"></div>
+          <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
+          	<div class="heading-section ftco-animate mb-5">
+	          	<span class="subheading">{{page.order.subText}}</span>
+	            <h2 class="mb-4">{{page.order.header}}</h2>
+	          </div>
+            <form action="/order" method="post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">Name</label>
+                    <input id="order-name" name="name" type="text" class="form-control" placeholder="Your Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">Email</label>
+                    <input id="order-email" name="email" type="text" class="form-control" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="">Order</label>
+                    <textarea id="order-description" name="order" type="text" rows="8" class="form-control" placeholder="Describe your order here.."></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                  <div id="btn-order-container" class="form-group">
+                    <input id="btn-order" type="submit" value="Place your order!" class="btn btn-primary py-3 px-5">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+			</div>
+		</section>
+
+
+
+{{>footer}}
+
+{{>scripts}}
+
+<script>
+
+(function(){
+console.log("hello!");
+
+$('#btn-order').click(function(event){
+	if(event)
+		event.preventDefault()
+
+	var order ={
+		name: $('#order-name').val(),
+		email: $('#order-email').val(),
+		order: $('#order-description').val()
+	}
+
+	console.log("place order: " + JSON.stringify(order))
+
+	$.ajax({
+		url: '/order',
+		method: 'post',
+		data: order,
+		success: function(resp){
+			console.log("order recieved: "+ JSON.stringify(resp))
+
+			$('#btn-order-container').html('<h3>Thanks! We will send you an email when your order is ready!</h3>')
+
+		},
+		error: function(resp){
+			
+		}
+	})
+
+	
+})
+})()
+
+
+</script>
+
+
+  </body>
+</html>
