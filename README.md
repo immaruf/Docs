@@ -2,7 +2,7 @@
 
 ## Technologies
 All of my projects are created with:
-* HRML 5
+* HTML 5
 * CSS 3
 * BOOTSTRAP 4
 * NODE.JS (Not in every single project)
