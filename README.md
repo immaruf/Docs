@@ -34,4 +34,4 @@ All of my projects are created with:
 [![Newsletter Signup Page](https://img.shields.io/badge/Heroku-Deployed-success)](https://subscribe-marufs-newsletter.herokuapp.com/)
 
 ### Litoll's Cafe Website
-[![Newsletter Signup Page](https://img.shields.io/badge/Turbo-Deployed-success)](https://restaurent-d4n60a.turbo360-vertex.com/)
+[![Litoll's Cafe Website](https://img.shields.io/badge/Turbo-Deployed-success)](https://restaurent-d4n60a.turbo360-vertex.com/)
