@@ -12,16 +12,16 @@ All of my projects are created with:
 ### Maruf's(my) Portfolio
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92aa5b2d-d5e4-452a-a62d-a201f35c248e/deploy-status)](https://illegal-potato.netlify.app/)
 
-### Al-Amin's Portfolio
+### Al-Amin's Personal Website 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5703a083-de30-4339-a3c8-df887f362935/deploy-status)](https://mandalorian-spyder.netlify.app/)
 
 ### Snuhi's Personl Gallery
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f28fd2b0-b1a2-4e76-9e61-f3557035391e/deploy-status)](https://snuhi.netlify.app/)
 
-### Zihan's Portfolio
+### Zihan's Personal Website 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/74fb61bc-b9ed-40af-b2c0-8c91bd234aa3/deploy-status)](https://zihan.netlify.app/)
 
-### Michel's Portfolio
+### Michel's Personal Website
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e8ee766f-1dd2-4441-be4b-6bc196d154c1/deploy-status)](https://michelg.netlify.app/)
 
 ### Tanaz E-Commerce Website
