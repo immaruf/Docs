@@ -8,10 +8,10 @@ All of my projects are created with:
 * NODE.JS (Not in every single project)
 
 ## Project's List
-### Maruf's(my) Portfolio 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fa3ff0e7-c0ff-4452-bbae-539409ff37f5/deploy-status)](https://illegal-weirdomino.app/)
+### Maruf's(my) Portfolio V2
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa3ff0e7-c0ff-4452-bbae-539409ff37f5/deploy-status)](https://weirdomino.app/)
 
-### Maruf's(my) Portfolio
+### Maruf's(my) Portfolio V1
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92aa5b2d-d5e4-452a-a62d-a201f35c248e/deploy-status)](https://illegal-potato.netlify.app/)
 
 ### Al-Amin's Personal Website 
