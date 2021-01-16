@@ -10,7 +10,7 @@
 #### Running locally
 ```
 $ git clone https://github.com/immaruf/docs.git
-$ cd SecretThoughts-BlogWebsite
+$ cd Docs/Secrets
 $ npm install
 $ mongod  
     # if you don't have mongodb installed, use $ apt-get install mongodb
