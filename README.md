@@ -1,5 +1,12 @@
 # In this repository i will upload my completed projects.
 
+## 🚨 Forking this repo (please read!)
+
+Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+All I ask of you all is to not claim this code as your own.
+
+Yes, you can fork this repo. Please give me proper credit by linking back to [my github account](https://github.com/immaruf/Docs). Thanks!
+
 ## Technologies
 All of my projects are created with:
 * HTML 5
